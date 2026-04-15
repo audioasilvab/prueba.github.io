@@ -237,6 +237,19 @@ function cargarApp() {
 			y: 200
 		}
 	});
+
+	precargarApp({
+		titulo: 'Lawson',
+		rutaArchivo: 'apps/lawson/',
+		dimensiones: {
+			anchura: 600,
+			altura: 500,
+		},
+		coordenadas: {
+			x: 200,
+			y: 200
+		}
+	});
 }
 
 function cargarEventos() {
